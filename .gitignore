@@ -1,0 +1,66 @@
+# Virtual environment
+venv/
+env/
+# If you are using virtualenvwrapper
+.virtualenvs/
+
+# Python specific files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Django specific files
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Ignore migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Ignore media and static files
+media/
+staticfiles/
+static/
+
+# VS Code workspace and settings
+.vscode/
+.code-workspace
+
+# PyCharm project files
+.idea/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# Test and coverage reports
+htmlcov/
+.tox/
+noxfile_config.json
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# PyInstaller
+# Usually these files are written by a python script from a compiled python file
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# Environment variables file
+.env
+.env.*
+.DS_Store
